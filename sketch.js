@@ -8,6 +8,10 @@ var dustbinObj,groundObject, paper;
 var world;
 
 
+function preload(){
+
+}
+
 function setup() {
 	createCanvas(1600, 700);
 	rectMode(CENTER);
@@ -28,7 +32,11 @@ function setup() {
 function draw() {
   rectMode(CENTER);
   background(230);
- 
+
+
+
+
+
 
   groundObject.display();
   dustbinObj.display();
