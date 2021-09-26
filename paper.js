@@ -21,7 +21,7 @@ class Paper{
 	{
 			var paperpos=this.body.position;		
 			push();
-			translate(paperpos.x, paperpos.y);
+			translate(paperpos.x,paperpos.y);
 			rectMode(CENTER)
 			ellipse(0,0,this.r,this.r)
 			pop();
